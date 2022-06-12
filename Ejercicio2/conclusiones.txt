@@ -1,0 +1,23 @@
+Conclusiones
+1.- Con el uso de pruebas garantiza el correcto funcionamiento de la herramienta
+sin embargo no garantiza la ausencia de errores, es por eso que al testear signup 
+ingresando una clave vacia, permite que el sistema ingrese al usuario.
+
+2.- Para la prueba del login fue necesario ingresar un Pre-request-script en donde usando
+la contraseña como variable de entorno, se encripta a base64 para que el login se pueda ejecutar normalmente,
+caso contrario siempre retornaria el mensaje de Wrong Password.
+
+3.- En el caso de que el signup sea exitoso el api no devuelve ningun mensaje.
+
+4.- La creacion de variables de entorno elimino la duplicacion de el url
+
+5.- En su mayoria los mensajes de error estan etiquetados correctamente, ayudando a que sea facil el entendimiento de este.
+
+6.- Los apis no disponen de ningun tipo de autenticacion haciendolos inseguros y facilmente vulnerables.
+
+7.- El api de login retorna el mismo Auth_token con todos los usuarios.
+
+8.- El api de login permite innumerables ingresos desde el mismo user en lugar de limitar el numero de inicios de sesion.
+
+
+
