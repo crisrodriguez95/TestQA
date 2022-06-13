@@ -1,0 +1,11 @@
+Conclusiones
+1.- Al realizar la compra se puede observar una falta de validaciones
+-Se ingresan numeros en el nombre
+-Sin validacion de espacios en blanco en todos los campos
+-Sin validacion de fechas
+-Sin validacion de numeros y caracteres especiales
+2.- En el carrito de compras se hace dificil la apreciacion de los productos debido a que no se agrupan por productos.
+3.- La fecha mostrada al terminar la compra es una fecha desactualizada
+4.- El uso de Selenium permite verificar todo este tipo de validaciones sin embargo al ejecutar la compra esta  
+se puede ir modificando con los datos que sean de nuestra preferencia
+5.- Sin agregar nada al carrito de compras se puede ver que si se ejecuta la compra con un valor de cero dolares, es decir no hay validacion de precio
